@@ -24,7 +24,7 @@ Feature: Validate grid dialog functionality
 		  Given User launch grid application
 	    When Select all icons from outer perimeter
 	    When User sets grid size to <size>
-	    Then Verify not a good size error message displayed
+	    Then Verify erros messge displayed from invalid size input
 	
 	    Examples: 
 	      | size |

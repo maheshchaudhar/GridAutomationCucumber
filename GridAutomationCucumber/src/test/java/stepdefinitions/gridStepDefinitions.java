@@ -51,7 +51,7 @@ public class gridStepDefinitions {
 	}
 
 	
-	@When("^Verify not a good size error message displayed$")
+	@When("^Verify erros messge displayed from invalid size input$")
 	public void verifyWrongSizeSelectionError() {
 		String errorMsg=gridHomePage.getErrorDialogMsg();
 		gridHomePage.quitDriverSession();
